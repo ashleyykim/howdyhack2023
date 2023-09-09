@@ -52,3 +52,8 @@ animation-timing-function: linear;
     font-size:20px;
     vertical-align: bottom;
 }
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #000;
+     color: #000;
+     }
