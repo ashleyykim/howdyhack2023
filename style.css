@@ -3,6 +3,10 @@ html {
   width: 100%;
 }
 
+body {
+  background-color: #FFE8C1;
+}
+
 #jukeboxTop {
   margin: 0 auto;
   width: 30rem;
