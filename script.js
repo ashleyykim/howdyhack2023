@@ -1,7 +1,7 @@
 const musicFiles = [
     { title: 'Blame It on the Boogie', url: 'playlist_audio/Blame It on the Boogie.mp3' },
     { title: 'Dancing Queen', url: 'playlist_audio/Dancing Queen.mp3' },
-    { title: 'Heaven Is A Place On Earth - Promo 7 Edit', url: 'playlist_audio/Heaven Is A Place On Earth - Promo 7 Edit.mp3' }
+    { title: 'Heaven Is A Place On Earth', url: 'playlist_audio/Heaven Is A Place On Earth - Promo 7 Edit.mp3' }
 ];
 let currentSongIndex = 0;
 
