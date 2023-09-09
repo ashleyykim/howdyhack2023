@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #jukeboxTop {
+    margin: 0 auto;
+    width: 30rem;
+    height: 10rem;
+    background-color: #ffff80;
+    border: solid hotpink 10px;
+    border-radius: 10rem 10rem 0 0;
+  }
+  #jukeboxMiddle {
+    margin: 0 auto;
+    width: 30rem;
+    background-color: hotpink;
+    border: solid hotpink 10px;
+  }
+  #disk {
+  background: url("https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjgxLTAwNDUtcC1sMWxnZ2hpbi5wbmc.png?s=uuBeZoBiMlFbeSbA_BZGXu5d9BiGo_iHGYmluGLkK6I");
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #4e4e4e;
+  margin: 0 auto;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  }
+  @keyframes spin {
+    from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+  #jukeboxBottom {
+    margin: 0 auto;
+    width: 30rem;
+    height: 20rem;
+    background-color: aliceblue;
+    border: solid cadetblue 10px;
+  }
