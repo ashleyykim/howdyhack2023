@@ -8,6 +8,15 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+<style>
+  .font {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+  h1 {
+    color: hotpink;
+  }
+</style>
+
 <body>
   Jukebox Music Player (Work in Progress)
   <div class="jukebox">
@@ -17,14 +26,14 @@
     </div>
     <div id="jukeboxBottom">
       <div class="songInfo">
-        <h1>Music Player</h1>
+        <h1 class="font">Music Player</h1>
         <p id="songTitle"></p>
         <audio id="musicPlayer" controls autoplay>
           Your browser does not support the audio element.
         </audio>
         <br>
         <button id="prevBtn">Previous</button>
-        <button id="nextBtn"><i class="fa-solid fa-chevron-right" style="color: #72aaac;"></i></button>
+        <button id="nextBtn">Next</button>
 
       </div>
       <script src="script.js"></script>
