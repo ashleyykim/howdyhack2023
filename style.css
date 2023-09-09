@@ -48,6 +48,7 @@ animation-timing-function: linear;
 }
 .songInfo{
     text-align:center;
-    font-size:100px;
+    padding-top:120px;
+    font-size:20px;
     vertical-align: bottom;
 }
