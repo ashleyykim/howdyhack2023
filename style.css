@@ -42,9 +42,6 @@ animation-timing-function: linear;
         transform:rotate(360deg);
     }
 }
-#progress{
-  -webkit-appearance: none;
-}
 #jukeboxBottom {
   margin: 0 auto;
   width: 30rem;
