@@ -2,9 +2,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import requests
 import os
+import ids
 
-cid = 'c4ef5ca0a62a464bae63c4dc44cef3d3'
-secret = '86b0c8f6cccf46ccb4eb9eac3e53f369'
 redirect_uri = 'http://localhost:3000'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
